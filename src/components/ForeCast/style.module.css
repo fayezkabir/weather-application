@@ -1,0 +1,62 @@
+.Wrapper {
+    max-width: 200px;
+    backdrop-filter: blur(100px);
+    border-radius: 15px;
+    padding: 5px 12px;
+    margin: 5px;
+    /* background-color: rgba(255,255,255,0.3); */
+    border: 1px solid rgba(255,255,255,0.4);
+}
+.header {
+    margin-top: 0;
+    padding: 8px 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #f37928;
+    margin-bottom: 0;
+    border-bottom: 1px solid #000;
+}
+.ForeCast {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Current__list {
+    font-size: 12px;
+    /* white-space: nowrap; */
+    list-style: none;
+    margin-left: 0.75rem;
+    padding-left: 0;
+}
+.Current__list li {
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.other_info__clouds {
+    font-weight: normal;
+    font-size: 0.9rem;
+    margin: 10px 0;
+}
+.list__temperature {
+    font-size: 0.8rem;
+    margin: 0;
+    transition: scale 0.3s, padding-left 0.3s;
+    font-weight: 600;
+}
+.light {  
+    margin-left: 5px;
+    color: #e17055;
+}
+.list__temperature:hover {
+    scale: 1.5;
+    padding-left: 0.25rem;
+}
+.list__temperature_symbol {
+    font-weight: 500;
+    font-size: .6rem;
+}
+.ForeCast_Img img{
+    height: 50px;
+    width: 50px;
+}

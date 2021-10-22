@@ -1,0 +1,27 @@
+.backImg {
+    background-image: linear-gradient(to top, rgba(0,0,0,0.42) , rgba(0,0,0,0.42)) ,url("./../../assets/skybg.png");
+    background-repeat: no-repeat;
+    background-position: top bottom;
+    background-size: cover;
+    min-height: 80vh;
+    height: 100%;
+
+}
+.ForeCastReport {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.tempUnit {
+    text-align: center;
+    color: #fff;
+}
+.tempUnit svg {
+    cursor: pointer;
+    transform: translate( 0, 7px);
+}
+.err {
+    color: red;
+    text-align: center;
+    font-size: 22px;
+}
