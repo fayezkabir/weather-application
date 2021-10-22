@@ -1,6 +1,5 @@
 # Weather Forecast Application
-
-<img src="./src/assets/Weather-Report.png" alt="weather-app>
+![Alt text](./src/assets/Weather-Report.png?raw=true "Title")
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
