@@ -55,8 +55,8 @@ describe("fetch weather data", () => {
                 "name": "Siliguri",
                 "cod": 200
             };
-            
-// axios.get.mockImplementationOnce(() => Promise.resolve(responseData));
+
+            // axios.get.mockImplementationOnce(() => Promise.resolve(responseData));
             axios.get.mockResolvedValueOnce(responseData);
 
             // when
@@ -67,8 +67,8 @@ describe("fetch weather data", () => {
             // then
             expect(axios.get).toHaveBeenCalledWith("https://api.openweathermap.org/data/2.5/weather?lat=26.7271012&lon=88.3952861&units=metric&appid=244a5c39079ef3dd3d24cf3593de476e");
             expect(data).toEqual(responseData);
-            
-// await expect(data).toEqual(responseData);
+
+            // await expect(data).toEqual(responseData);
         });
     });
 

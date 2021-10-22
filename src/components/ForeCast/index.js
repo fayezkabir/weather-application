@@ -6,7 +6,7 @@ import styles from "./style.module.css"
 
 
 const ForeCast = ({ weatherInfo , showInCelcious }) => {
-    const { temp, wind_speed, humidity , dt ,weather } = weatherInfo;
+    const { temp, wind_speed, humidity , dt ,weather } = weatherInfo? weatherInfo : "";
     const currentWeather = weather? weather[0] : "" ;
 
     return (
