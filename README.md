@@ -1,7 +1,12 @@
 # Weather Forecast Application
 
+<img src="./src/assets/Weather-Report.png" alt="weather-app>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+download the repo [weather app](https://github.com/fayezkabir/weather-application.git)
+
+then, hit npm install in the terminal
 ## Available Scripts
 
 In the project directory, you can run:
