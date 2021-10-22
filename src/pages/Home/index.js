@@ -64,6 +64,7 @@ const Home = (props) => {
                 {
                     weeklyWeatherData && weeklyWeatherData?.length && (
                         weeklyWeatherData?.map((res, index) => (
+                            index !== 7 &&
                             <ForeCast weatherInfo={res} showInCelcious={showInCelcious} />
                         ))
                     )

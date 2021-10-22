@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 
 const AppWrapper = styled.div`
-  max-width: 1170px;
+  /* max-width: 1170px; */
   width: 100%;
   margin: 0 auto;
   min-height: 100vh;
